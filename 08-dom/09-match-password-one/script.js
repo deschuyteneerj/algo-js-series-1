@@ -5,6 +5,6 @@
         if (document.getElementById("pass-one").value !== document.getElementById("pass-two").value) {
             document.getElementById("pass-one").style.border = "3px solid red";
             document.getElementById("pass-two").style.border = "3px solid red";
-
-        });
+        }
+    });
 })();
